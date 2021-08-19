@@ -1,0 +1,82 @@
+body{
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.caixa{
+
+  /* gradiente (direcao{right, left, top, bottom}, cor1, cor2) */
+  background-image: linear-gradient(to bottom, white, white);
+  
+  margin: 30px 50px;
+
+  padding: 30px 50px;
+  border-radius: 10px;
+
+  box-shadow: 0 0 15px rgba(128, 128, 128, 0.5);
+}
+
+/* Header */
+
+/* seletor filho */
+header img{
+  height: 250px;
+  border-radius: 5px;
+}
+
+header h4{
+  margin-top: -15px;
+  color: rgb(131, 43, 43);
+}
+
+
+
+/* Main */
+section{
+
+  margin: 0 20px 20px 20px;
+  padding: 15px 30px;
+
+  text-align: left;
+
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 0 15px rgba(128, 128, 128, 0.5);
+
+}
+section: hover{
+
+}
+
+section li{
+  list-style-type: none;
+  display: inline;
+  margin-right: 5px;
+}
+
+section img{
+  width: 35px;
+}
+
+.btn{
+  text-decoration: none;
+  font-size: 15px;
+  margin-left: 35px;
+  background-color: gray;
+  box-shadow: 0 0 15px rgba(128, 128, 128, 0.5);
+  color: white;
+}
+
+.btn:hover{
+  background-color: rgb(194, 194, 194)
+}
+
+footer{
+  color: white;
+  background-color: gray;
+  padding: 10px;
+  margin: 0 20px;
+  box-shadow: 0 0 15px rgba(128, 128, 128, 0.5);
+  border-radius: 10px;
+
+}
